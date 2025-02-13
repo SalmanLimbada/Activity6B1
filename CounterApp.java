@@ -13,7 +13,7 @@ public class CounterApp {
 
         while (true) {
             System.out.println("\nCurrent counter: " + counter);
-            System.out.println("Enter a command (increment, decrement, reset, exit):");
+            System.out.println("Enter a command (increment, decrement, reset, exit): ");
             command = scanner.nextLine();
 
             if (command.equalsIgnoreCase("increment")) {
